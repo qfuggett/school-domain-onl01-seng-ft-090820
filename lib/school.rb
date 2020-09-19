@@ -27,6 +27,8 @@ class School
       # if number == 9
       #   name[0],name[1] = name[1],name[0]
       # end
+      
+      name.sort
     end
   end
   
