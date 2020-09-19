@@ -24,8 +24,7 @@ class School
   def sort
     
     @roster.sort.to_h.each do |number, name|
-      "#{name}".sort
-      #name.sort
+      name.sort
     end
   end
   
