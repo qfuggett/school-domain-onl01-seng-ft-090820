@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_accessor :roster
   
@@ -20,9 +22,11 @@ class School
   end
   
   def sort
+    binding.pry
+    
     @roster.sort.each do |number, name|
       "#{number}""#{name}"
-      binding.pry
+      
     end
   end
   
