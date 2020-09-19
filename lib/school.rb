@@ -20,9 +20,10 @@ class School
   end
   
   def sort
-    @roster.sort.map do |key, value|
-      "#{key}""#{value}"
-      
+    @roster.sort.map do |number, name|
+      sorted_array = [ ]
+      num_name = "#{number}""#{name}"
+      sorted_array << num_name
     end
   end
   
