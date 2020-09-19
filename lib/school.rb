@@ -26,7 +26,7 @@ class School
     
     @roster.sort
       
-    end
+    #end
   end
   
 end
