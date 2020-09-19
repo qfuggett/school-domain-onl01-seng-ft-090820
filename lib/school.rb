@@ -26,7 +26,7 @@ class School
     @roster.sort.to_h.each do |number, name|
       if number == 9
       name.sort
-      #   name[0],name[1] = name[1],name[0]
+      name[0],name[1] = name[1],name[0]
        end
       
       
