@@ -25,7 +25,7 @@ class School
     #binding.pry
     sorted_hash = Hash.new
     sorted = @roster.sort.flatten
-    sorted_hash = sorted
+    sorted_hash = Hash[sorted]
     #@roster.sort.each do |number, name|
     #hash.store("#{number}""#{name}")
     #end
