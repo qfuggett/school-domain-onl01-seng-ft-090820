@@ -24,7 +24,7 @@ class School
   def sort
     sorted_hash = { }
     @roster.each do |grade, names|
-      binding.pry
+      sorted_hash[grade] = @roster[grade].sort
       
 
     end
