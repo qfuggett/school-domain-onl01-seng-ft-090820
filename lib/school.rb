@@ -24,7 +24,7 @@ class School
   def sort
     #binding.pry
     
-    @roster.sort.flatten
+    @roster.sort.flatten.to_h
     
     #.each do |number, name|
      # "#{number}""#{name}"
