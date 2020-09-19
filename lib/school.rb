@@ -26,7 +26,7 @@ class School
     sorted_hash = { }
     sorted = @roster.sort.flatten
     sorted_hash << sorted
-    #.each do |number, name|
+    #@roster.sort.each do |number, name|
      # "#{number}""#{name}"
   end
   
