@@ -21,9 +21,8 @@ class School
   
   def sort
     sorted = { }
-    @roster.keys.sort.each do |key, value|
+    @roster.sort.each do |key, value|
       "#{key}=>""#{value}"
-      sorted[value] = @roster.value
     end
   end
   
