@@ -22,7 +22,7 @@ class School
   def sort
     @roster.sort.each do |key, value|
       sorted = "#{key}=>""#{value}"
-      sorted
+      sorted.flatten
     end
   end
   
