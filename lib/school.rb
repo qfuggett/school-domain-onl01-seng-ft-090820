@@ -24,7 +24,7 @@ class School
   def sort
     
     @roster.sort.to_h.each do |number, name|
-      name.each do |something|
+      name.sort.each do |something|
         
       end
     end
