@@ -21,8 +21,7 @@ class School
   
   def sort
     @roster.each do |key, name|
-      sorted = "#{key}=>""#{name}"
-      sorted.sort
+      "#{key}=>""#{name}"
     end
   end
   
