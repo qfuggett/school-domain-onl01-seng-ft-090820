@@ -24,6 +24,7 @@ class School
   def sort
     
     @roster.to_h.each do |number, name|
+      number.sort
       name.sort
     end
   end
