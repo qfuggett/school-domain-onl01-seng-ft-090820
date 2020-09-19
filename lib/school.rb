@@ -24,7 +24,9 @@ class School
   def sort
     
     @roster.sort.to_h.each do |number, name|
-      binding.pry
+      if number == 9
+        name[0],name[1] = name[1],name[0]
+      end
     end
   end
   
