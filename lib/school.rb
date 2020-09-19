@@ -23,7 +23,7 @@ class School
   
   def sort
     #binding.pry
-    sorted_hash = hash.new
+    sorted_hash = Hash.new
     sorted = @roster.sort.flatten
     sorted_hash = sorted
     #@roster.sort.each do |number, name|
