@@ -22,16 +22,16 @@ class School
   end
   
   def sort
-    #binding.pry
+    
+    @roster.sort.to_h
+  end
+  
+  #binding.pry
     #sorted_hash = Hash.new
     #sorted = @roster.sort.flatten
     #sorted_hash = Hash[sorted]
     #@roster.sort.each do |number, name|
     #hash.store("#{number}""#{name}")
     #end
-    
-    @roster.sort.to_h
-  end
-  
 end
 
