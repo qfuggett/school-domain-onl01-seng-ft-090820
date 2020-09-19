@@ -30,7 +30,7 @@ class School
     #hash.store("#{number}""#{name}")
     #end
     
-    @roster.sort.flatten.to_h
+    @roster.sort
   end
   
 end
