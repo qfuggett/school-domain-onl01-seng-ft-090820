@@ -1,7 +1,7 @@
 class School
   attr_accessor :roster
   
-  NEW = @roster
+  #NEW = @roster
   
   def initialize(name)
     
