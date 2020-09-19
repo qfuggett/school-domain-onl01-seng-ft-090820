@@ -20,11 +20,9 @@ class School
   end
   
   def sort
-    @roster.sort.map do |number, name|
-      sorted_array = [ ]
-      num_name = "#{number}""#{name}"
-      sorted_array << num_name
-      Hash(sorted_array)
+    @roster.sort.each do |number, name|
+      "#{number}""#{name}"
+      
     end
   end
   
