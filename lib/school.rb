@@ -20,11 +20,9 @@ class School
   end
   
   def sort
-    sorted_items = [ ]
     @roster.sort.each do |key, value|
-      sorted = "#{key}""#{value}"
-      sorted_items << sorted
-      sorted_items.flatten
+      "#{key}""#{value}".to_h
+      
     end
   end
   
