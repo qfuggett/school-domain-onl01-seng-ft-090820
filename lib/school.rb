@@ -28,7 +28,7 @@ class School
     
     #.each do |number, name|
       "#{number}""#{name}"
-  #end
+  end
   
 end
 
