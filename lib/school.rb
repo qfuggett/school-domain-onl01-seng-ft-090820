@@ -7,17 +7,17 @@ class School
   
   def initialize(name)
     
-    @roster = { }
+    @roster = { }                         #creates hash
   end
   
   
   def add_student(student_name, grade)
     @roster[grade] ||= [ ]
-    @roster[grade] << student_name
+    @roster[grade] << student_name        #assigns student names to grade, key/value pairs in hash
   end
   
   def grade(num)
-    @roster[num]
+    @roster[num]                          #returns student names depending on grade/num received
     
   end
   
