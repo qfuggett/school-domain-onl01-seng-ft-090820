@@ -24,9 +24,8 @@ class School
   def sort
     #binding.pry
     
-    @roster.sort
-      
-    #end
+    @roster.sort.each do |number, name|
+      "#{number}""#{name}"
   end
   
 end
