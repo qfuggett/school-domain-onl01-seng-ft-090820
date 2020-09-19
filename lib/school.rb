@@ -25,8 +25,7 @@ class School
     sorted_hash = { }
     @roster.sort.to_h.each do |number|
       sorted_hash[number]
-      sorted_hash.sort
-      
+
     end
   end
   
