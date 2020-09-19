@@ -28,7 +28,7 @@ class School
     sorted_hash = sorted
     #@roster.sort.each do |number, name|
     #hash.store("#{number}""#{name}")
-  end
+    #end
   end
   
 end
