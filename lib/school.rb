@@ -24,6 +24,7 @@ class School
       sorted_array = [ ]
       num_name = "#{number}""#{name}"
       sorted_array << num_name
+      Hash(sorted_array)
     end
   end
   
