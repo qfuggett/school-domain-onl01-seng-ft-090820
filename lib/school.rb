@@ -24,7 +24,7 @@ class School
   def sort
     #binding.pry
     sorted_hash = { }
-    @roster.sort.flatten.to_h
+    @roster.sort.flatten
     
     #.each do |number, name|
      # "#{number}""#{name}"
