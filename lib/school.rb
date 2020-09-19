@@ -23,8 +23,8 @@ class School
   
   def sort
     
-    @roster.sort.to_h.each do |number, name|
-      name.flatten
+    @roster.to_h.each do |number, name|
+      name.sort
     end
   end
   
