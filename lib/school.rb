@@ -14,6 +14,7 @@ class School
     @roster << grade
   end
   
+  def grade 
   
 end
 
