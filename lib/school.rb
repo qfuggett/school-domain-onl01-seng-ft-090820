@@ -1,6 +1,9 @@
 class School
   
+  NEW = { } 
+  
   def initialize(name)
+    
     @roster = { }
   end
   
