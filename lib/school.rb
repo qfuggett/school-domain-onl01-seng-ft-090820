@@ -23,11 +23,9 @@ class School
   
   def sort
     sorted_hash = { }
-    @roster.sort.to_h.each do |number|
-      sorted_hash[number]
-      sorted_hash.each do |block|
-        block.sort
-      end
+    @roster.each do |grade, names|
+      binding.pry
+      
 
     end
   end
