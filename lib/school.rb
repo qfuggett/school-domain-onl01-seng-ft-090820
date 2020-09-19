@@ -20,8 +20,10 @@ class School
   end
   
   def sort
+    sorted = { }
     @roster.sort.each do |key, value|
       "#{key}=>""#{value}"
+      sorted[value] = @roster.value
     end
   end
   
