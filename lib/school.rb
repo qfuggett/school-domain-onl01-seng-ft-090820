@@ -27,7 +27,7 @@ class School
     @roster.sort
     
     #.each do |number, name|
-      "#{number}""#{name}"
+     # "#{number}""#{name}"
   end
   
 end
