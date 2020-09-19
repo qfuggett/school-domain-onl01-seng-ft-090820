@@ -1,6 +1,6 @@
 class School
   
-  NEW = { } 
+  NEW = @roster
   
   def initialize(name)
     
